@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,800');
+
+body {
+  font-family: 'Poppins';
+}
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+  .npm-logo {
+    width: 70px;
+    padding-right: 10px;
+  }
+
+#bar {
+    height: 40px;
+}
+
+#bar .search {
+    width: 90%;
+    border-style: none;
+    background-color: rgb(233, 233, 233);
+    height: 20px;
+    font-size: 1em;
+}
+
+#bar .searchBar .button {
+    width: 90px;
+    height: 32.5px;
+    font-family: 'Poppins' !important ;
+    font-size: 0.8em;
+    background-color: rgb(255, 59, 75);
+    color:white;
+}
+
+.join {
+    background-color: #eee;
+    color: #000;
+    font-size: 0.7em;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-style: 1px solid black;
+    margin-right: 20px;
+}
+
+.log {
+    color: #000;
+    font-size: 0.7em;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-right: 20px;
+}
+
+  .magnifying-glass {
+    width: 20px;
+    margin-right: 0;
+    background-color: rgb(233, 233, 233);
+    padding-left: 5px;
+    padding-top: 5px;
+  }
+
+  #see-and-join {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      flex-direction: column;
+      height: 600px;
+  }
+
+  #see-and-join h1 {
+      display: flex;;
+      font-size: 3.5em;
+      justify-content: center;
+  }
+
+  #see-and-join article {
+      margin: 0px 390px 80px 390px;
+  }
+
+  .light-background {
+    background-color: rgba(232,217,217,.3);
+  }
+  
+  h1 {
+    font-weight: 800;
+  }
+
+  .link-plans {
+    background-color: #FB3B49;
+    color: rgb(255,255,255);
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 50px;
+    margin-right: 20px;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+  }
+
+  .link-free {
+    background-color: #eee;
+    color: #000;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 50px;
+  }
+
+  #general-information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 600px;
+}
+
+#general-information .triangle {
+     position: flex;
+     width: 200px;
+     justify-content: center;
+     align-self: center;
+     margin-bottom: 40px;
+  }
+
+h2 {
+     background-color: rgba(255,204,53,.4);
+     font-weight: 600;
+     transform: skew(9deg,0deg);
+     font-style: italic;
+     margin: 0px 300px 0px 300px;
+  }
+
+#general-information p {
+    display: flex;
+    text-align: center;
+    margin: 30px 230px 0px 230px;
+}
+
+#open-source .icons {
+    width: 30px;
+}
+
+h3 {
+   color: #ED1C24;
+   text-align: left;
+}
+
+#open-source {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 0px 160px 0px 160px;
+}
+
+#open-source .container {
+    margin: 0px 15px 100px 15px;
+    font-size: 0.8em;
+    align-items: center;
+}
+
+h3 {
+    text-align: start;
+}
+
+p {
+    display: flex;
+    margin-top: 30px;
+}
+
+.bottomButton {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: rgb(255,255,255);
+    font-size: 1em;
+    text-decoration: none;
+    padding: 15px 100px;
+    margin: 0px 450px 60px 450px;
+    box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+}
